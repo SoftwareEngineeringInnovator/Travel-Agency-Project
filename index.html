@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Import Bootstrap Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- Import Fonts Library -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="../CSS/style.css">
+
+  <!-- Page Tittle -->
+  <title>Home_SBA_307-HTML_and_CSS</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active" href="#index">Home</a></li>
+      <li><a href="colombia.html">Colombia</a></li>
+      <li><a href="germany.html">Germany</a></li>
+    </ul>
+  </nav>
+  <h2 style="font-size: 36px; font-weight: bold; text-align: center; margin-top: 50px; color: lightskyblue;">
+    Your Next Great Escape Starts Here
+  </h2>
+  <!-- Travel Agent Information -->
+  <div class="container2">
+
+    <section class="section1">
+      <div class="top-row">
+        <!-- Box 1 -->
+        <div class="box" id="box1">
+          <img src="../IMGS/IMG_6679.jpg" alt="mypicture" class="profile-img">
+          <div>
+            <h2 style="font-size: 30px; margin: 0; font-weight: bold;">Fredy Alexander Chilito-Ramos</h2>
+            <p class="role">Travel Agent</p>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <!-- Traveler Information -->
+        <div class="box" id="box2">
+          <h3>Send a message to inquire further</h3>
+          <form #>
+            <label for="FirstName">Your Name:</label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="Enter your name">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <br><br>
+
+            <label for="PhoneNumber">Phone Number:</label>
+            <input type="number" id="PhoneNumber" name="PhoneNumber" placeholder="Enter Phone Number" required>
+            <br><br>
+
+            <label>Date of Travel:</label><br>
+            From: <input type="date" name="startDate" id="startDate"><br>
+            To: <input type="date" name="endDate" id="endDate">
+            <br><br>
+
+            <label>Looking for?</label>
+            <label for="habits_sports"><input type="checkbox" name="interests" id="habits_sports"
+                value="adventure">Adventure</label>
+            <label for="habits_eat"><input type="checkbox" name="interests" id="habits_eat" value="relax">Relax</label>
+            <label for="habits_sleep"><input type="checkbox" name="interests" id="habits_sleep"
+                value="surprise">Surprise me!</label>
+            <br><br>
+
+            <p>Feel free to provide as much details as you like for your trip</p>
+            <textarea id="clientInfo" name="clientDetails"
+              placeholder="Tell us more about your dream trip..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="box" id="box3">
+        <p>
+          Meet <strong>Fredy</strong> Your Personal Guide to the Great Escape
+          We all need a "reset" button every now and then. Whether you’re looking for a quick weekend getaway,
+          a much needed week at the beach, or even a month-long deep dive into a new culture,
+          <strong>Fredy</strong> is the guy you want in your corner.
+          With over five years of experience, <strong>Fredy</strong> has helped everyone, from solo adventurers and
+          couples to friend groups and entire companies find their perfect "spot" on the map.
+          He handles the stressful planning so you can focus on the best part: actually taking the break
+          you deserve. Ready to step away from the desk?
+          <strong>Fredy</strong> is ready to help you pack.
+        </p>
+      </div>
+      <hr />
+
+    </section>
+  </div>
+
+  <!-- Work Information Start Section 2 -->
+
+  <div class="container2">
+    <section class="section2">
+
+      <div>
+        <p style="font-family: 'Bungee Spice', cursive; font-size: 25px">Every Destination Will Surprise You!
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#4B77D1">
+            <path
+              d="M624-528.67q23.67 0 39.83-16.16Q680-561 680-584.67q0-23.66-16.17-39.83-16.16-16.17-39.83-16.17-23.67 0-39.83 16.17Q568-608.33 568-584.67q0 23.67 16.17 39.84 16.16 16.16 39.83 16.16Zm-288 0q23.67 0 39.83-16.16Q392-561 392-584.67q0-23.66-16.17-39.83-16.16-16.17-39.83-16.17-23.67 0-39.83 16.17Q280-608.33 280-584.67q0 23.67 16.17 39.84 16.16 16.16 39.83 16.16Zm266.17 231.5q55.5-36.5 80.5-98.16H277.33q25.67 61.66 80.84 98.16 55.16 36.5 121.83 36.5t122.17-36.5ZM324-111.5Q251-143 197-197t-85.5-127Q80-397 80-480t31.5-156Q143-709 197-763t127-85.5Q397-880 480-880t156 31.5Q709-817 763-763t85.5 127Q880-563 880-480t-31.5 156Q817-251 763-197t-127 85.5Q563-80 480-80t-156-31.5ZM480-480Zm236.33 236.33q97-97 97-236.33t-97-236.33q-97-97-236.33-97t-236.33 97q-97 97-97 236.33t97 236.33q97 97 236.33 97t236.33-97Z" />
+          </svg>
+        </p>
+      </div>
+
+      <!-- red box -->
+
+      <div class="row">
+
+        <!-- blue box -->
+        <div class="col-4">
+          <br>
+          <h4>Follow what client are expressesing after booking a vation with Fredy!</h4>
+          <!-- purple box (top row) -->
+          <div class="row">
+            <!-- orange boxes -->
+            <div class="col-4">
+              <p>Visit us at: <a href="https://x.com/">X</a></p>
+              <a href="https://x.com/" target="_blank">
+                <img src="../IMGS/X.jpg" href="https://x.com/" alt="X img" height="100px" width="150px" />
+              </a>
+            </div>
+
+          </div>
+          <div class="col-4">
+            <br>
+            <p>Visit us at: <a href="https://www.facebook.com">Facebook</a></p>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="../IMGS/facebook.jpg" href="https://www.facebook.com" alt="facebook img" height="100px"
+                width="150px" />
+            </a>
+          </div>
+
+
+          <div class="row">
+            <!-- light blue boxes -->
+
+            <div class="col-4">
+              <br>
+              <p>Visit us at: <a href="https://www.instagram.com/?hl=en">Instagram</a></p>
+              <a href="https://www.instagram.com/?hl=en" target="_blank">
+                <img src="../IMGS/instagram.jpg" href="https://www.instagram.com/?hl=en" alt="Instagram img"
+                  height="100px" width="150px" />
+              </a>
+            </div>
+          </div><br>
+
+        </div>
+
+        <!-- pink box -->
+        <div class="col-8">
+
+          <p>Visit Our More Prefer Destinatons During Spring and Fall Time!</p>
+          <p>Take a look in our following page to get more information about:
+            <a href="./colombia.html" target="_blank">
+              <h4 id="country"><span style="color: yellow; font-weight: bold;">Col</span><span
+                  style="color: blue; font-weight: bold;">omb</span><span
+                  style="color: red; font-weight: bold;">ia!</span>
+              </h4>
+            </a>
+          </p>
+          <a href="./colombia.html" target="_blank">
+            <img id="flags" src="../IMGS/colombia.jpg" href="./colombia.html" alt="colombia img" height="200px"
+              width="350px" />
+          </a>
+          <br><br>
+          <p>Take a look in our following page to get more information about:
+            <a href="./germany.html" target="_blank">
+              <h4 id="country"><span style="color: black; font-weight: bold;">Ger</span><span
+                  style="color: red; font-weight: bold;">ma</span><span
+                  style="color: yellow; font-weight: bold;">ny!</span>
+              </h4>
+            </a>
+          </p>
+          <a href="./germany.html" target="_blank">
+            <img id="flags" src="../IMGS/germany.png" href="./germany.html" alt="colombia img" height="200px"
+              width="350px" />
+          </a> <br> <br>
+          <p style="font-family: 'Bungee Spice', cursive; font-size: 25px">Satisfaction Guaranteed by</p>
+          <p class="momo-signature-regular">Fredy Chilito-Ramos!</p>
+          <br><br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#4B77D1">
+            <path
+              d="m608-120-255.33-90-181.34 71.33q-18 8.67-34.66-2.16Q120-151.67 120-172v-558.67q0-13 7.5-23t19.83-15L352.67-840 608-750.67 788.67-822q18-8 34.66 2.5Q840-809 840-788.67v563.34q0 11.66-7.5 20.33-7.5 8.67-19.17 13L608-120Zm-36-82.67v-492.66L388-758v492.67l184 62.66Zm66.67 0 134.66-44.66v-499.34l-134.66 51.34v492.66Zm-452-11.33 134.66-51.33V-758l-134.66 44.67V-214Zm452-481.33v492.66-492.66ZM321.33-758v492.67V-758Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#4B77D1">
+            <path
+              d="m397-115-99-184-184-99 71-70 145 25 102-102-317-135 84-86 385 68 124-124q23-23 57-23t57 23q23 23 23 56.5T822-709L697-584l68 384-85 85-136-317-102 102 26 144-71 71Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#4B77D1">
+            <path
+              d="M200-160q-85 0-142.5-57.5T0-360q0-85 58.5-142.5T200-560q77 0 129.5 46T396-400h26l-72-200h-70v-80h200v80h-44l14 40h192l-58-160H480v-80h104q26 0 46.5 14t29.5 38l68 186h32q83 0 141.5 58.5T960-362q0 84-58 143t-142 59q-72 0-126.5-45T564-320H396q-14 69-68 114.5T200-160Zm0-80q41 0 70.5-22.5T312-320H200v-80h112q-12-36-41.5-58T200-480q-51 0-85.5 34.5T80-360q0 50 34.5 85t85.5 35Zm308-160h56q5-23 13.5-43t22.5-37H478l30 80Zm252 160q51 0 85.5-35t34.5-85q0-51-34.5-85.5T760-480h-4l40 106-76 28-38-106q-20 17-31 40t-11 52q0 50 34.5 85t85.5 35ZM196-360Zm564 0Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#4B77D1">
+            <path
+              d="M213.33-202.67v49.34q0 14.16-9.58 23.75Q194.17-120 180-120h-26.67q-14.16 0-23.75-9.58-9.58-9.59-9.58-23.75V-476l84.67-250.67Q210-742 222.83-751q12.84-9 29.17-9h456q16.33 0 29.17 9 12.83 9 18.16 24.33L840-476v322.67q0 14.16-9.58 23.75-9.59 9.58-23.75 9.58h-27.34q-14.33 0-23.5-9.58-9.16-9.59-9.16-23.75v-49.34H213.33Zm-.66-340h534.66l-50.66-150.66H263.33l-50.66 150.66Zm-26 66.67v206.67V-476Zm103.84 160q23.82 0 39.99-16.33 16.17-16.34 16.17-39.67 0-23.89-16.34-40.61-16.33-16.72-39.66-16.72-23.89 0-40.61 16.67-16.73 16.68-16.73 40.5 0 23.83 16.68 39.99Q266.69-316 290.51-316ZM670-316q23.89 0 40.61-16.33 16.72-16.34 16.72-39.67 0-23.89-16.67-40.61-16.68-16.72-40.5-16.72-23.83 0-39.99 16.67Q614-395.98 614-372.16q0 23.83 16.33 39.99Q646.67-316 670-316Zm-483.33 46.67h586.66V-476H186.67v206.67Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#4B77D1">
+            <path
+              d="M717.33-120H274.67v-514.67L553.33-920 596-882.67q6.33 5.67 9.83 15.67t3.5 22.33v11.34l-44.66 198.66H850q26.67 0 46.67 20t20 46.67v81.23q0 7.1.33 14.77t-2.33 14.67L790.67-170q-8.92 20.83-29.73 35.42Q740.13-120 717.33-120Zm-376-66.67H726l124-292.66V-568H481.33l53.34-239.33-193.34 200.66v420Zm0-420v420-420Zm-66.66-28V-568H146v381.33h128.67V-120H79.33v-514.67h195.34Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#4B77D1">
+            <path
+              d="M624-528.67q23.67 0 39.83-16.16Q680-561 680-584.67q0-23.66-16.17-39.83-16.16-16.17-39.83-16.17-23.67 0-39.83 16.17Q568-608.33 568-584.67q0 23.67 16.17 39.84 16.16 16.16 39.83 16.16Zm-288 0q23.67 0 39.83-16.16Q392-561 392-584.67q0-23.66-16.17-39.83-16.16-16.17-39.83-16.17-23.67 0-39.83 16.17Q280-608.33 280-584.67q0 23.67 16.17 39.84 16.16 16.16 39.83 16.16Zm266.17 231.5q55.5-36.5 80.5-98.16H626q-22.67 39-61.5 60.5t-83.83 21.5q-45.67 0-84.84-21.17-39.16-21.17-61.16-60.83h-57.34q25.67 61.66 80.84 98.16 55.16 36.5 121.83 36.5t122.17-36.5ZM324-111.5Q251-143 197-197t-85.5-127Q80-397 80-480t31.5-156Q143-709 197-763t127-85.5Q397-880 480-880t156 31.5Q709-817 763-763t85.5 127Q880-563 880-480t-31.5 156Q817-251 763-197t-127 85.5Q563-80 480-80t-156-31.5ZM480-480Zm236.33 236.33q97-97 97-236.33t-97-236.33q-97-97-236.33-97t-236.33 97q-97 97-97 236.33t97 236.33q97 97 236.33 97t236.33-97Z" />
+          </svg>
+
+        </div>
+      </div>
+
+  </div>
+
+</body>
+
+</html>

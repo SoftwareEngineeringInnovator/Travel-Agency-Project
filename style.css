@@ -1,0 +1,194 @@
+/* Information from client */
+#box2 {
+  background-color: black;
+  border: 1px solid #dee2e6;
+  border-radius: 10px; /* Smooths the corners */
+  transition-property: font-size;
+  padding: 20px;
+  transition-duration: 2s;
+}
+
+/* #box2:hover {
+  font-size: 10px;
+} */
+
+.col-8 {
+  background-color: lightslategray; 
+  border: 1px solid #dee2e6;
+  border-radius: 10px; /* Smooths the corners */
+  box-shadow: 2px 2px 1px rgba(9, 9, 9, 0.80); /*Shade*/
+  padding: 10px;   
+}
+
+/* {
+  background-color: black;
+  transition-property: font-size;
+  padding: 20px;
+  transition-duration: 2s;
+} */
+
+.col-4 {
+  background-color: darkgray;
+  border-radius: 10px;
+  transition-property: font-size;
+  padding: 20px;
+  transition-duration: 2s;
+}
+
+.col-4:hover {
+  font-size: 30px;
+}
+
+#flags {
+  transition-duration: 3s;
+}
+#flags:hover {
+transform:rotate(360deg);
+}
+
+#country {
+	animation-name: demo;
+	animation-duration: 4s;
+}
+
+@keyframes demo {
+  from {
+    /* Starts 300px further left and invisible */
+    transform: translate(-300px, 0px);
+    opacity: 0;
+  }
+  to {
+    /* Ends at the position you defined in #main-content */
+    transform: translate(150px, 0px);
+    opacity: 1;
+  }
+}
+
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  background: linear-gradient(to right, blue, black);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.profile-img {
+  height: 25px;
+  width: 25px
+  margin-right: 0.5em;
+  vertical-align: bottom;
+}
+
+
+/* Beginning of body setup    */
+
+body {
+background-color: black;
+font-family: 'Arial', sans-serif;
+color: white;
+padding: 20px;
+}
+
+/* Beginning Section1 */
+.container1 {
+max-width: 900px;
+margin: 40px auto;
+background-color: gray;
+}
+
+/*Section1 contain class for picture, name and role */
+.section1 {
+/* border: 3px solid blue; */
+padding: 20px;
+background-color: gray
+}
+
+/*The Flexbox Container (Crucial for side-by-side) */
+.top-row {
+display: flex;         /* Turns on Flexbox */
+flex-direction: row;   /* places items into a line */
+gap: 15px;             /* Space between Box 1 and Box 2 */
+margin-bottom: 15px;
+}
+
+/*Box Styles */
+/* .box {
+background-color: #2d2d2d;
+padding: 20px;
+} */
+
+#box1 {
+flex: 2;               /* Takes up more space */
+/* border: 2px solid white; */
+display: flex;         /* Flex inside Box 1 to align Image + Text */
+align-items: center;
+}
+
+/*Elements inside Box 1 */
+.profile-img {
+width: 150px;
+height: 250px;
+border: 3px solid black; 
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds depth */
+/* border: 1px solid white; */
+}
+
+h1 {
+font-size: 30px;
+margin: 0;
+font-weight: bold;
+}
+
+.role {
+color: blue;
+font-weight: bold;
+font-size: 30px;
+}
+
+
+
+/* Beginning Section2 */
+.container2 {
+max-width: 900px;
+margin: 40px auto;
+}
+
+/*Section2 */
+.section2 {
+/* border: 3px solid blue; */
+padding: 20px;
+background-color: gray;
+}
